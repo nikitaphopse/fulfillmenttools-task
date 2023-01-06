@@ -1,3 +1,5 @@
+### Run the app
+
 - Run the app using 
 `npm run dev`
 
@@ -7,6 +9,7 @@
 The app runs on port 3001 (see env file). Send a POST request to http://localhost:3001 
 Include a JSON body like this: 
 
+```json
 {
 	"email": "nphopse@ocff-pinkpoodle-git.com",
 	"password": "7NQ6!8uL",
@@ -77,3 +80,4 @@ Include a JSON body like this:
 	"status": "OPEN",
 	"tenantOrderId": "R456728546"
 }
+```
